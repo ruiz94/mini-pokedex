@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/mini-pokedex/static/css/main.df5d0f65.chunk.css",
+    "main.js": "/mini-pokedex/static/js/main.a6c7c4f2.chunk.js",
+    "main.js.map": "/mini-pokedex/static/js/main.a6c7c4f2.chunk.js.map",
+    "runtime-main.js": "/mini-pokedex/static/js/runtime-main.0e6aff39.js",
+    "runtime-main.js.map": "/mini-pokedex/static/js/runtime-main.0e6aff39.js.map",
+    "static/js/2.e5aa787c.chunk.js": "/mini-pokedex/static/js/2.e5aa787c.chunk.js",
+    "static/js/2.e5aa787c.chunk.js.map": "/mini-pokedex/static/js/2.e5aa787c.chunk.js.map",
+    "index.html": "/mini-pokedex/index.html",
+    "static/css/main.df5d0f65.chunk.css.map": "/mini-pokedex/static/css/main.df5d0f65.chunk.css.map",
+    "static/js/2.e5aa787c.chunk.js.LICENSE.txt": "/mini-pokedex/static/js/2.e5aa787c.chunk.js.LICENSE.txt",
+    "static/media/Pokedex_logo.beda6a95.png": "/mini-pokedex/static/media/Pokedex_logo.beda6a95.png",
+    "static/media/loader.8bc9a72e.png": "/mini-pokedex/static/media/loader.8bc9a72e.png",
+    "static/media/quien-es-ese-pokemon.6c1b51dc.png": "/mini-pokedex/static/media/quien-es-ese-pokemon.6c1b51dc.png",
+    "static/media/rotom.0818d1c5.png": "/mini-pokedex/static/media/rotom.0818d1c5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e6aff39.js",
+    "static/js/2.e5aa787c.chunk.js",
+    "static/css/main.df5d0f65.chunk.css",
+    "static/js/main.a6c7c4f2.chunk.js"
+  ]
+}
