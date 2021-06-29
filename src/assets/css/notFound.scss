@@ -1,0 +1,65 @@
+.not-found{
+  background-color: #fed95c;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .main{
+    background-color: #f0efeb;
+    width: 80%;
+    border-radius: 10px;
+    padding: 100px 0;
+
+    .number-section{
+      span{
+        font-size: 15rem;
+        color: rgba($color: #666666, $alpha: .5);
+        font-weight: 700;
+      }
+      img{
+        width: 200px;
+      }
+      img:hover{
+        animation: spinning 2s linear infinite ;
+      }
+      @keyframes spinning {
+        0%{
+          transform: rotate(0deg);
+        }
+        100%{
+          transform: rotate(360deg);
+        }  
+      }
+    }
+
+    .page-not-found{
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin: 0;
+    }
+    .leyenda{
+      margin: 0;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: rgba($color: #666666, $alpha: .5);
+    }
+    .regresar{
+      display: inline-block;
+      background-color: #ed1b24;
+      color: #f0efeb;
+      margin-top: 25px;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 25px;
+      font-size: 1rem;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all .2s ease;
+    }
+    .regresar:hover{
+      box-shadow: 0 0 15px 5px rgba($color: #666666, $alpha: .5);
+    }
+  }
+}

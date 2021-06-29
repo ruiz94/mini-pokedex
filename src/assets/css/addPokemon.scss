@@ -1,0 +1,120 @@
+.add-pokemon{
+  position: relative;
+  padding-top: 85px;
+
+  .icono-return{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+  }
+
+  .container{
+    max-width: 300px;
+    margin: auto;
+    
+    .search{
+      width: 100%;
+
+      .search-title{
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+      }
+
+      label{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        input{
+          width: 400px;
+          text-align: center;
+          padding: 5px 15px;
+          font-size: 1.5rem;
+          color: #666666;
+          border: 1px solid #666666;
+          border-radius: 5px;
+          
+        }
+      }
+    }
+
+    .cuerpo{
+
+      .info-poke .details{
+
+        .name{
+          font-size: 1.8rem;
+        }
+        .stats{
+          display: flex;
+          justify-content: center;
+          margin: 10px 0;
+
+          .line{
+            width: 2px;
+            background-color: #666666;
+          }
+
+          .box{
+            display: flex;
+            flex-direction: column;
+            margin: 10px 25px;
+            .stat{
+              font-size: 1.2rem;
+              font-weight: 600;
+            }
+            .name_stat{
+              font-style: italic;
+            }
+          }
+        }
+
+        .btn-add-pokemon{
+          margin: 25px 0;
+          border: none;
+          border-radius: 5px;
+          padding: 5px 25px;
+          background-color: #43aa8b;
+          color: #fff;
+          font-size: 1.3rem;
+          cursor: pointer;
+        }
+      }
+      .no-existe-pokemon{
+        margin-top: 25px;
+        .no-existe-title{
+          font-size: 1.2rem;
+          font-weight: 700;
+        }
+        img{
+          animation: tic 2s ease-in-out infinite alternate;
+        }
+        @keyframes tic {
+           0%{
+             transform: rotate(-90deg);
+           }
+           100%{
+             transform: rotate(90deg);
+           }
+        }
+      }
+
+      .advice{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 45px;
+
+        .advice-title{
+          font-size: 1.1rem;
+          font-weight: 700;
+          font-style: italic;
+        }
+        img{
+          width: 200px;
+        }
+      }
+    }
+  }
+}
